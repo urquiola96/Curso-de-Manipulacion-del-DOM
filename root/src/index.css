@@ -1,0 +1,50 @@
+@import 'tailwindcss/dist/base.css';
+@import 'tailwindcss/dist/components.css';
+@import 'tailwindcss/dist/utilities.css';
+
+
+.main-appnode {
+    height: auto;
+    width: 100%;
+    margin-bottom: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    }
+
+.main-appnode .card{
+    min-width: 300px;
+    max-width: 325px;
+    background-color: #bfbfbf73;
+    padding: 1rem;
+    margin: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(198, 211, 142, 0.801), 10px 10px 15px -1px rgba(0, 0, 0, 0.404);
+}
+.main-appnode .card:hover {
+    background-color: #bfbfbf;
+}
+
+.card img {
+    border-radius: 45%;
+    width: 90%;
+}
+
+.card .card-text {
+    padding-left: 10px;
+    
+}
+
+.card .card-text h2 {
+    font-weight: 900;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.card .card-text p {
+    font-weight: 500;
+}
